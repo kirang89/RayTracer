@@ -25,10 +25,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F64612919542BB600B812AA /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		9F64612A19542BE500B812AA /* Ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		9F64612D19542C3B00B812AA /* Colour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colour.h; sourceTree = "<group>"; };
+		9F64612E19542C5A00B812AA /* LightSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightSource.h; sourceTree = "<group>"; };
+		9F64612F19542C8C00B812AA /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		9F64613019542CB800B812AA /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		9F7DD889194BC658003D6859 /* RayTracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7DD88C194BC658003D6859 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9F7DD88E194BC658003D6859 /* RayTracer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RayTracer.1; sourceTree = "<group>"; };
-		9F7DD895194BC6E3003D6859 /* foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +66,14 @@
 		9F7DD88B194BC658003D6859 /* RayTracer */ = {
 			isa = PBXGroup;
 			children = (
-				9F7DD895194BC6E3003D6859 /* foundation.h */,
 				9F7DD88C194BC658003D6859 /* main.cpp */,
 				9F7DD88E194BC658003D6859 /* RayTracer.1 */,
+				9F64612919542BB600B812AA /* Vector.h */,
+				9F64612A19542BE500B812AA /* Ray.h */,
+				9F64612D19542C3B00B812AA /* Colour.h */,
+				9F64612E19542C5A00B812AA /* LightSource.h */,
+				9F64612F19542C8C00B812AA /* Sphere.h */,
+				9F64613019542CB800B812AA /* Image.h */,
 			);
 			path = RayTracer;
 			sourceTree = "<group>";
@@ -229,6 +239,7 @@
 				9F7DD894194BC658003D6859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

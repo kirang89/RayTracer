@@ -20,6 +20,7 @@ c++ -o rtracer -O3 -Wall main.cpp
     - GIMP/Photoshop for Windows
 
 ###Todo
-- Object refractions
-- Improve scene
 - Show object shadows on scene
+- Anti-aliasing
+- Object refractions
+- Loading scene from files
